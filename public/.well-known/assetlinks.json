@@ -5,9 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.twilio.video.app.internal",
+      "package_name": "com.wGladstarGTSchool_9279984.internal",
       "sha256_cert_fingerprints": [
-        "48:F3:DA:B7:2B:1B:06:2B:35:7E:29:B8:63:2E:03:B9:77:BB:E9:F2:86:BF:50:FB:1C:83:7A:12:38:BD:C7:3F"
+        "BB:2B:30:A4:80:18:4C:64:E2:08:BB:CD:A2:DD:90:0D:8F:94:B2:4C:A5:AE:E5:06:DB:0C:0D:98:56:4C:A6:55"
       ]
     }
   },
@@ -17,9 +17,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.twilio.video.app",
+      "package_name": "com.wGladstarGTSchool_9279984",
       "sha256_cert_fingerprints": [
-        "48:F3:DA:B7:2B:1B:06:2B:35:7E:29:B8:63:2E:03:B9:77:BB:E9:F2:86:BF:50:FB:1C:83:7A:12:38:BD:C7:3F"
+        "BB:2B:30:A4:80:18:4C:64:E2:08:BB:CD:A2:DD:90:0D:8F:94:B2:4C:A5:AE:E5:06:DB:0C:0D:98:56:4C:A6:55"
       ]
     }
   }
