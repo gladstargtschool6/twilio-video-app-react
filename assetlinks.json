@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.gladstar.ekoyamu",
-    "sha256_cert_fingerprints":
-    ["BB:2B:30:A4:80:18:4C:64:E2:08:BB:CD:A2:DD:90:0D:8F:94:B2:4C:A5:AE:E5:06:DB:0C:0D:98:56:4C:A6:55"]
-  }
-}]
