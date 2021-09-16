@@ -18,18 +18,21 @@
     -->
     <title>Twilio Video App</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <body>
+        <h1>Flask & Twilio Video Conference</h1>
+        <form>
+            <label for="username">Name: </label>
+            <input type="text" name=”username” id="username">
+            <button id="join_leave">Join call</button>
+        </form>
+        <p id="count"></p>
+        <div id="container" class="container">
+            <div id="local" class="participant"><div></div><div>Me</div></div>
+            <!-- more participants will be added dynamically here -->
+        </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        <script src="//media.twiliocdn.com/sdk/js/video/releases/2.3.0/twilio-video.min.js"></script>
+        <script src="{{ url_for('static', filename='app.js') }}"></script>
+    
   </body>
 </html>
